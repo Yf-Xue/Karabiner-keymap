@@ -1,0 +1,26 @@
+{
+  "title": "Caps Lock → Right_Control (Caps Lock if alone)",
+  "rules": [
+    {
+      "description": "Caps Lock → Right_Control (Caps Lock if alone)",
+      "manipulators": [
+        {
+          "from": {
+            "key_code": "caps_lock"
+          },
+          "to": [
+            {
+              "key_code": "right_control"
+            }
+          ],
+          "to_if_alone": [
+            {
+              "key_code": "caps_lock"
+            }
+          ],
+          "type": "basic"
+        }
+      ]
+    }
+  ]
+}
